@@ -12,7 +12,7 @@ export default function App() {
     setError(null)
 
     try {
-      const res = await fetch('https://[your-render-url]/api/submissions', {
+      const res = await fetch('https://company-system-sandbox.onrender.com/api/submissions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: input })
